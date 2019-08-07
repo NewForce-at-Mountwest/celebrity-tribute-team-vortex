@@ -25,3 +25,22 @@
     text-decoration: none;
     font-family: 'Nanum Gothic', sans-serif;
 }
+
+
+/* Personal Page style items */
+
+.personal-heading {
+    color: #b30000;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+.personalArticle {
+    font-family: 'Nanum Gothic', sans-serif;
+    text-align: center;
+}
+
+.personalArticle h2 {
+    font-size: 1em
+}
