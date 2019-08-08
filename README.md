@@ -59,4 +59,3 @@ You'll want to create an HTML document for each page of your website. In your na
     <a href="personal.html">Personal</a>
     <a href="news.html">News</a>
 </nav>
-```
