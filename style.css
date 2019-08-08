@@ -26,10 +26,23 @@
     font-family: 'Nanum Gothic', sans-serif;
 }
 
-.name{
-    font-family: 'Grenze', serif;
+h1{
+    font-family: 'Fredericka the Great', cursive;
+    color: black;
+    text-align: center;
+    font-size: 3em;
 }
 
 .profilePic{
-    
+    height: 60vh;
+    border-radius: 30%;
+    align-content: center;
+}
+
+.aliases{
+    font-size: 2em;
+    font-family: 'Fredericka the Great', cursive;
+    padding: .5em;
+    margin-left: 7em;
+    list-style-type: none;
 }
