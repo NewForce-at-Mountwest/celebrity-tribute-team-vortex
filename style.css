@@ -63,6 +63,7 @@
 .momImg {
     display: block;
     padding: 1.5em;
+    margin-left: 5em;
 }
 
 .mom h3 {
@@ -74,6 +75,7 @@
 .girlfriendImg {
     display: block;
     padding: 1.5em;
+    margin-left: 5em;
 }
 
 .girlfriend h3 {
@@ -98,4 +100,8 @@
 
 .girlfriend a {
     font-family: 'Nanum Gothic', sans-serif;
+}
+
+.personal-people {
+    margin-bottom: 5em;
 }
