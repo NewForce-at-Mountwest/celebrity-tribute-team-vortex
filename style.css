@@ -39,8 +39,63 @@
 .personalArticle {
     font-family: 'Nanum Gothic', sans-serif;
     text-align: center;
+    margin-bottom: 3em;
 }
 
 .personalArticle h2 {
-    font-size: 1em
+    font-size: 1em;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: #b30000;
+}
+
+.sisterImg {
+    display: block;
+    padding: 1.5em;
+    margin-left: 5em;
+}
+
+.sister h3 {
+    color: #b30000;
+    font-size: 1em;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.momImg {
+    display: block;
+    padding: 1.5em;
+}
+
+.mom h3 {
+    font-size: 1em;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: #b30000;
+}
+
+.girlfriendImg {
+    display: block;
+    padding: 1.5em;
+}
+
+.girlfriend h3 {
+    font-size: 1em;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: #b30000;
+}
+
+.mom h3 {
+    font-size: 1em;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: #b30000;
+}
+
+.mom a {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.sister a {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.girlfriend a {
+    font-family: 'Nanum Gothic', sans-serif;
 }
