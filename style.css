@@ -1,4 +1,4 @@
-.main{
+.main {
     font-family: 'Fredericka the Great', cursive;
     background-color: #ccccb3;
     font-size: 2em;
@@ -9,19 +9,24 @@
     justify-content: space-around;
 }
 
-.main a{
+.main a {
     color: #b30000;
-    text-decoration: none;   
+    text-decoration: none;
 }
 
-.social{
+.social {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-.social a{
+.social a {
     color: #b30000;
     text-decoration: none;
     font-family: 'Nanum Gothic', sans-serif;
+}
+
+.skills {
+    color: black;
+    justify-content: center;
 }
