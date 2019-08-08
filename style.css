@@ -25,3 +25,15 @@
     text-decoration: none;
     font-family: 'Nanum Gothic', sans-serif;
 }
+
+.resources{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: 'Nanum Gothic', sans-serif;
+    color:#b30000;
+}
+.firstParagraph{
+    
+}
+   
