@@ -28,32 +28,63 @@
 }
 
 .skills {
-    color: black;
+    color: white;
     display: flex;
-    justify-content: right;
     font-family: 'Fredericka the Great', cursive;
+}
+
+.skills h3{
+    font-size: 3em;
 }
 
 .krc {
     color: #b30000;
     font-family: 'Fredericka the Great', cursive;
     justify-content: right;
+    font-size: 2em
     
 }
 
 .placesLived {
-    color: black;
+    color:white;
     font-family: 'Fredericka the Great', cursive;
+    font-size: 2em
 }
 
 .movies {
-    color: black;
+    color: white;
     font-family: 'Fredericka the Great', cursive;
-}
+    font-size: 2em;
+}   
 
 .image1 {
+    border-radius: 45%;
+}
     
-    
+.image2 {
+    border-radius: 40%;
+    margin: 0 0 0 20vw;
+}
+
+.bio h3 {
+    color: white;
+    font-size: 4em;
+}
+
+.bio p {
+    color: white;
+}
+
+.image3 {
+    margin: 0 0 0 20vw;
+}
+
+.awards {
+    color: white;
+    display: flex;
+    flex-direction: row;
+
+}
 /* Used for centering Keanu Reeves' name on the page */
 h1{
     font-family: 'Fredericka the Great', cursive;
