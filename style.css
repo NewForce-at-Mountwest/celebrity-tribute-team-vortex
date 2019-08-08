@@ -36,6 +36,9 @@
     text-align: center;
 }
 
+
+/* Set font and margin on first article */
+
 .personalArticle {
     font-family: 'Nanum Gothic', sans-serif;
     text-align: center;
@@ -48,60 +51,112 @@
     color: #b30000;
 }
 
+.personalArticle {
+    color: white;
+}
+
 .sisterImg {
-    display: block;
     padding: 1.5em;
     margin-left: 5em;
+    border-radius: 20%;
 }
 
 .sister h3 {
     color: #b30000;
     font-size: 1em;
     font-family: 'Nanum Gothic', sans-serif;
+    margin: 1em;
 }
 
 .momImg {
     display: block;
     padding: 1.5em;
     margin-left: 5em;
+    border-radius: 20%;
 }
 
 .mom h3 {
     font-size: 1em;
     font-family: 'Nanum Gothic', sans-serif;
     color: #b30000;
+    margin: 1em;
 }
 
 .girlfriendImg {
     display: block;
     padding: 1.5em;
     margin-left: 5em;
+    border-radius: 20%;
 }
 
 .girlfriend h3 {
     font-size: 1em;
     font-family: 'Nanum Gothic', sans-serif;
     color: #b30000;
+    margin: 1em;
 }
 
 .mom h3 {
     font-size: 1em;
     font-family: 'Nanum Gothic', sans-serif;
     color: #b30000;
+    margin: 1em;
 }
 
 .mom a {
     font-family: 'Nanum Gothic', sans-serif;
+    height: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
 }
 
 .sister a {
     font-family: 'Nanum Gothic', sans-serif;
+    height: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
 }
 
 .girlfriend a {
     font-family: 'Nanum Gothic', sans-serif;
+    height: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
 }
 
 .personal-people {
     margin-bottom: 5em;
+}
+
+.sister {
+    display: flex;
+}
+
+.girlfriend {
+    display: flex;
+}
+
+.mom {
+    display: flex;
+}
+
+.sisterTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.girlTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.momTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
