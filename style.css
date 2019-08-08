@@ -28,5 +28,29 @@
 
 .skills {
     color: black;
-    justify-content: center;
+    display: flex;
+    justify-content: right;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+.krc {
+    color: #b30000;
+    font-family: 'Fredericka the Great', cursive;
+    justify-content: right;
+    
+}
+
+.placesLived {
+    color: black;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+.movies {
+    color: black;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+.image1 {
+    
+    
 }
