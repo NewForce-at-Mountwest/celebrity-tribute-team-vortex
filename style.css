@@ -1,3 +1,164 @@
+/* Navbar */
+.main{
+    font-family: 'Fredericka the Great', cursive;
+    background-color: #ccccb3;
+    font-size: 2em;
+    margin: auto;
+    padding: .5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+/* Separate section needed to apply changes to Navbar */
+.main a{
+    color: #b30000;
+    text-decoration: none;
+}
+/* Footer with social media links that don't work */
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+/* Separate section needed to apply changes to Footer */
+.social a{
+    color: #b30000;
+    text-decoration: none;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+/* for skills section in careers */
+.skills {
+    color: white;
+    display: flex;
+    font-family: 'Fredericka the Great', cursive;
+}
+.skills h3{
+    font-size: 2.5em;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+/* for the main title of the careers page */
+.krc {
+    color: #b30000;
+    font-family: 'Fredericka the Great', cursive;
+    justify-content: right;
+    font-size: 2em;
+}
+/* the places he lived */
+.placesLived {
+    color:white;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 2em;
+    margin: 0 0 0 30vw;
+}
+
+.placesLived h3 {
+    font-family: 'Fredericka the Great', cursive;
+    
+}
+
+.movies {
+    color: white;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 2em;
+}   
+
+.image1 {
+    border-radius: 45%;
+}
+    
+.image2 {
+    border-radius: 40%;
+    margin: 0 0 0 20vw;
+}
+
+.bio h3 {
+    color: white;
+    font-size: 4em;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+.bio p {
+    color: white;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+.image3 {
+    margin: 0 0 0 18vw;
+    border-radius: 40%;
+}
+
+.awards {
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    font-family: 'Fredericka the Great', cursive; 
+    font-size: 2em;
+}
+
+.CoStars {
+    color: white;
+    font-size: 2em;
+    font-family: 'Fredericka the Great', cursive; 
+}
+/* Used for centering Keanu Reeves' name on the page */
+h1{
+    font-family: 'Fredericka the Great', cursive;
+    color: white;
+    text-align: center;
+    font-size: 3em;
+}
+/* Used to align the pictures of Keanu next to one another */
+.splitPics{
+    display: flex;
+}
+/* Specs applied to the pictures of Keanu */
+.profilePic{
+    height: 50vh;
+    border-radius: 30%;
+    align-content: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: auto;
+}
+/* List of Keanu's aliases */
+.aliases{
+    font-size: 2em;
+    font-family: 'Fredericka the Great', cursive;
+    padding: .5em;
+    margin-left: 7em;
+    list-style-type: none;
+    color: white;
+}
+/* Keanu's place of residence */
+.residence{
+    font-size: 2em;
+    font-family: 'Fredericka the Great', cursive;
+    padding-right: 3em;
+    padding-top: 2em;
+    color: white;
+}
+/* Used to place the Aliases and Residence next to each other on the page */
+.splitScreen{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+/* Used to list the Collaborators in the center of the page */
+.collabs{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+}
+/* Background Image */
+body{
+    background-image: url(http://blog.hostbaby.com/wp-content/uploads/2013/07/scuffedstatic_blue_1920x1234.jpg) ;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
     /* Navbar */
     
     .main {
